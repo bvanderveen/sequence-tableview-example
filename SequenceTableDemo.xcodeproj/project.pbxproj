@@ -1,0 +1,270 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41165357149B29B700174574 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41165356149B29B700174574 /* UIKit.framework */; };
+		41165359149B29B700174574 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41165358149B29B700174574 /* Foundation.framework */; };
+		4116535B149B29B700174574 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4116535A149B29B700174574 /* CoreGraphics.framework */; };
+		41165361149B29B700174574 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4116535F149B29B700174574 /* InfoPlist.strings */; };
+		41165363149B29B700174574 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41165362149B29B700174574 /* main.m */; };
+		41165367149B29B700174574 /* SequenceTableDemoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41165366149B29B700174574 /* SequenceTableDemoAppDelegate.m */; };
+		4116536A149B29B800174574 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41165368149B29B800174574 /* MainWindow.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		41165352149B29B700174574 /* SequenceTableDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SequenceTableDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41165356149B29B700174574 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41165358149B29B700174574 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4116535A149B29B700174574 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4116535E149B29B700174574 /* SequenceTableDemo-Info.plist */ = {isa = PBXFileReference; path = "SequenceTableDemo-Info.plist"; sourceTree = "<group>"; };
+		41165360149B29B700174574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41165362149B29B700174574 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41165364149B29B700174574 /* SequenceTableDemo-Prefix.pch */ = {isa = PBXFileReference; path = "SequenceTableDemo-Prefix.pch"; sourceTree = "<group>"; };
+		41165365149B29B700174574 /* SequenceTableDemoAppDelegate.h */ = {isa = PBXFileReference; path = SequenceTableDemoAppDelegate.h; sourceTree = "<group>"; };
+		41165366149B29B700174574 /* SequenceTableDemoAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SequenceTableDemoAppDelegate.m; sourceTree = "<group>"; };
+		41165369149B29B800174574 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4116534F149B29B700174574 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41165357149B29B700174574 /* UIKit.framework in Frameworks */,
+				41165359149B29B700174574 /* Foundation.framework in Frameworks */,
+				4116535B149B29B700174574 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41165347149B29B700174574 = {
+			isa = PBXGroup;
+			children = (
+				4116535C149B29B700174574 /* SequenceTableDemo */,
+				41165355149B29B700174574 /* Frameworks */,
+				41165353149B29B700174574 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41165353149B29B700174574 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41165352149B29B700174574 /* SequenceTableDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41165355149B29B700174574 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41165356149B29B700174574 /* UIKit.framework */,
+				41165358149B29B700174574 /* Foundation.framework */,
+				4116535A149B29B700174574 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4116535C149B29B700174574 /* SequenceTableDemo */ = {
+			isa = PBXGroup;
+			children = (
+				41165365149B29B700174574 /* SequenceTableDemoAppDelegate.h */,
+				41165366149B29B700174574 /* SequenceTableDemoAppDelegate.m */,
+				41165368149B29B800174574 /* MainWindow.xib */,
+				4116535D149B29B700174574 /* Supporting Files */,
+			);
+			path = SequenceTableDemo;
+			sourceTree = "<group>";
+		};
+		4116535D149B29B700174574 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4116535E149B29B700174574 /* SequenceTableDemo-Info.plist */,
+				4116535F149B29B700174574 /* InfoPlist.strings */,
+				41165362149B29B700174574 /* main.m */,
+				41165364149B29B700174574 /* SequenceTableDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41165351149B29B700174574 /* SequenceTableDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4116536D149B29B800174574 /* Build configuration list for PBXNativeTarget "SequenceTableDemo" */;
+			buildPhases = (
+				4116534E149B29B700174574 /* Sources */,
+				4116534F149B29B700174574 /* Frameworks */,
+				41165350149B29B700174574 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SequenceTableDemo;
+			productName = SequenceTableDemo;
+			productReference = 41165352149B29B700174574 /* SequenceTableDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41165349149B29B700174574 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 4116534C149B29B700174574 /* Build configuration list for PBXProject "SequenceTableDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41165347149B29B700174574;
+			productRefGroup = 41165353149B29B700174574 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41165351149B29B700174574 /* SequenceTableDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41165350149B29B700174574 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41165361149B29B700174574 /* InfoPlist.strings in Resources */,
+				4116536A149B29B800174574 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4116534E149B29B700174574 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41165363149B29B700174574 /* main.m in Sources */,
+				41165367149B29B700174574 /* SequenceTableDemoAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4116535F149B29B700174574 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41165360149B29B700174574 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41165368149B29B800174574 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41165369149B29B800174574 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4116536B149B29B800174574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4116536C149B29B800174574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4116536E149B29B800174574 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SequenceTableDemo/SequenceTableDemo-Prefix.pch";
+				INFOPLIST_FILE = "SequenceTableDemo/SequenceTableDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4116536F149B29B800174574 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SequenceTableDemo/SequenceTableDemo-Prefix.pch";
+				INFOPLIST_FILE = "SequenceTableDemo/SequenceTableDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4116534C149B29B700174574 /* Build configuration list for PBXProject "SequenceTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4116536B149B29B800174574 /* Debug */,
+				4116536C149B29B800174574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4116536D149B29B800174574 /* Build configuration list for PBXNativeTarget "SequenceTableDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4116536E149B29B800174574 /* Debug */,
+				4116536F149B29B800174574 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41165349149B29B700174574 /* Project object */;
+}
